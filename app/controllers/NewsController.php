@@ -10,16 +10,11 @@ class NewsController extends Controllers
     {
         echo __METHOD__;
 
-//      $data =  News::getNewsList();
-//      debug($data);
     }
 
     public function viewAction()
     {
         echo __METHOD__;
 
-
-
-//        debug($arr);
     }
 }

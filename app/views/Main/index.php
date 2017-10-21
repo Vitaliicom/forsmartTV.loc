@@ -1,6 +1,5 @@
 TEST
 <?php
 
-echo $name;
-
+debug($content);
 ?>

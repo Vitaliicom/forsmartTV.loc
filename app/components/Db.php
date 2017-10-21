@@ -8,7 +8,7 @@ class Db
     public static function getConnection(){
         require "rb.php";
 
-        $dsn = 'mysql:dbname=fw;host=localhost';
+        $dsn = 'mysql:dbname=forsmart;host=localhost';
         $user = 'root';
         $password = '';
         $opt = array(

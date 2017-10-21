@@ -11,23 +11,13 @@ class MainController extends Controllers
 
 
         $this->layout = false;
-        $name =  __METHOD__;
-      $data =   Main::getAll();
-//      debug($data);
+        $title = __METHOD__;
+        $content = Main::getAll();
+        debug($content);
+
+        $this->set(compact('title', 'content'));
 
 
-//        $title = 'Main++2';
-//        $this->layout = false;
-//
-//
-//        $this->set(compact('title','name'));
-//
-
-//        $this->getView();
-//        debug($segments);
-//        debug($this->route);
-//        $data = Main::indexAction();
-//        require ROOT . "/views/main/index.php";
     }
 
 }

@@ -23,7 +23,8 @@ abstract class Controllers
         $vObj->render($this->vars);
     }
 
-    public function set($vars){
+    public function set($vars)
+    {
         $this->vars = $vars;
     }
 }
