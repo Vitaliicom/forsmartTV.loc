@@ -1,0 +1,6 @@
+TEST
+<?php
+
+echo $name;
+
+?>
